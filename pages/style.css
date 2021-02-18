@@ -77,3 +77,11 @@ button a {
     background-position: center;
     background-size: cover;
 }
+
+.algemeneinfo {
+    color: black;
+    font-size: 140%;
+    position: absolute;
+    top: 14%;
+    left: 3%;
+}
