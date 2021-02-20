@@ -1,0 +1,1 @@
+alert("Pas op, recente browsgegevens wijzen erop dat je een virus hebt gedownload");

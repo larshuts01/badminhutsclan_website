@@ -94,3 +94,13 @@ button a {
     background-size: cover;
     bottom: 0px;
 }
+
+.virusknop {
+    color: blue;
+    position: relative;
+    top: 80%;
+    right: 50%;
+    background-color: red;
+    height: 50px;
+    width: 100px;
+}
