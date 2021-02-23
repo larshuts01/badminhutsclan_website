@@ -1,0 +1,76 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigatiebalk {
+    background-color:  grey;
+    height: 75px;
+    width: 100%;
+    background-size: cover;
+    background-position: absolute;
+    text-transform: lowercase;
+}
+
+.navigatiebalk a {
+    text-decoration: none;
+    color: white;
+    font-size: 250%;
+    margin: 14px;
+    position: relative;
+}
+
+.pageslinks {
+    padding-top: 10px;
+}
+
+.navigatiebalk a:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.navigatiebalk a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+.logo1 {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 96%;
+    top: -54px;
+}
+
+.inlogknop {
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    font-size: 230%;
+    margin-left: 1667px;
+    top: 13px;
+    position: absolute;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+
+.inlogknop:hover {
+    background-color: black;
+}
+
+.inlogknop a {
+    text-decoration: none;
+    color: white;
+}
+
+.lijstmetttools {
+    text-decoration: none;
+}
